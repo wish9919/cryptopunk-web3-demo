@@ -1,9 +1,10 @@
 .Header {
-  width: 100%;
+  position: relative;
+  min-height: 80px;
+  padding: 10px 20px;
 }
 
 .HeaderContainer {
-  margin: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +15,8 @@
 }
 
 .Logo {
-  width: 200px;
+  width: 150px;
+  height: 100%;
 }
 
 .SearchContainer {

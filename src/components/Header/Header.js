@@ -13,7 +13,10 @@ const Header = () => {
             alt="Cryptopunk logo"
           />
         </div>
-        <div className={styles.SearchContainer}>Search</div>
+        <div className={styles.SearchContainer}>
+          Search
+          <input placeholder="Collection, Item or User" type="text" />
+        </div>
         <div className={styles.NavContainer}>Menu</div>
       </div>
     </header>
